@@ -49,8 +49,29 @@ button {
     background-color: transparent;
 }
 
+
 .buttons {
     margin: 2rem;
     padding: 5rem;
     
+}
+
+
+@media screen and (min-width: 360px) {
+    .container {
+        align-items: center;
+
+    }
+
+    .buttons {
+        min-width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin: 0.2rem;
+        
+    }
 }
