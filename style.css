@@ -58,7 +58,7 @@ button {
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
     .main {
         display: flex;
         flex-direction: column;
